@@ -12,7 +12,7 @@ export default function draggable(element) {
     element.dragOffset = null;
   });
 
-  element.addEventListener("mousemove", (event) => {
+  document.addEventListener("mousemove", (event) => {
     if (element.dragOffset) {
       element.style.left = event.clientX - element.dragOffset.left;
       element.style.top = event.clientY - element.dragOffset.top;
