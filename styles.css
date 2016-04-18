@@ -4,5 +4,12 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background-color: #C0C0C0;
+  background-color: #E0E0E0;
+  opacity: 0.75;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+body {
+  text-align: justify;
 }
